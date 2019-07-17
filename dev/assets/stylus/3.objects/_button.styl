@@ -1,0 +1,30 @@
+.o-btn
+	display inline-block
+	vertical-align middle
+	font-size $font-size-default
+	text-align center
+	text-transform uppercase
+	cursor pointer
+	margin 0
+	transition all .2s ease-out
+	border none
+	border-radius 14px
+	line-height 1
+	outline none
+	padding 1.285714285714286em
+	&,
+	&:hover,
+	&:focus,
+	&:active
+		text-decoration none
+	&--primary
+		background-color $white
+		border 1px solid $btn-color-primary
+		color $btn-color-primary
+
+		&:hover,
+		&:focus,
+		&:active
+			background-color $btn-color-primary
+			border 1px solid $white
+			color $white
