@@ -23,6 +23,6 @@
   http://kouto-swiss.io/docs.html
 
 ### S-Grid
-  Flexbox Grid System for Stylus
-  Site Original -> http://stylusgrid.com
+  Flexbox Grid System for Stylus	
+  Site Original -> http://stylusgrid.com	
   Site Copy     -> http://s-grid.surge.sh/
