@@ -14,8 +14,8 @@ var APP = {
 		init: function () {
 
 			//Show loading image during requisitions
-			$(document).ajaxStart( () => $('.js-loader').show() );
-			$(document).ajaxComplete( () =>	$('.js-loader').hide() );
+			/*$(document).ajaxStart( () => $('.js-loader').show() );
+			$(document).ajaxComplete( () =>	$('.js-loader').hide() );*/
 
 		}
 	},

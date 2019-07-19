@@ -1,40 +1,42 @@
 {
-  "name": "blaze-boilerplate",
+  "name": "slush-blaze-simple",
+  "description": "Slush Generator for simple projects",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://github.com/LucasBlaze/slush-blaze-simple",
+  "author": {
+    "name": "Lucas Primo",
+    "email": "luckasprimo@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LucasBlaze/slush-blaze-simple"
+  },
+  "bugs": {
+    "url": "https://github.com/LucasBlaze/slush-blaze-simple/issues"
+  },
+  "main": "slushfile.js",
   "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "gulp": "^3.6.2",
+    "gulp-conflict": "^0.1.1",
+    "gulp-install": "^0.1.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-template": "^0.1.1",
+    "iniparser": "^1.0.5",
+    "inquirer": "^0.8.0",
+    "underscore.string": "^2.3.3"
   },
-  "author": "Lucas Primo",
-  "email": "luckasprimo@gmail.com",
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-preset-es2015": "^6.24.0",
-    "babelify": "^7.3.0",
-    "browser-sync": "^2.26.3",
-    "browserify": "^16.3.0",
-    "gulp": "^4.0.2",
-    "gulp-changed": "^4.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-file-include": "^2.0.1",
-    "gulp-plumber": "^1.2.1",
-    "gulp-stylus": "^2.7.0",
-    "gulp-tinypng": "^1.0.2",
-    "gulp-uglify": "^3.0.2",
-    "jeet": "7.2.0",
-    "jquery": "^3.2.1",
-    "jquery-mask-plugin": "^1.14.0",
-    "kouto-swiss": "^1.1.0",
-    "rupture": "^0.6.2",
-    "s-grid": "^1.2.1",
-    "slick-carousel": "^1.8.1",
-    "vinyl-buffer": "^1.0.1",
-    "vinyl-source-stream": "^2.0.0"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  }
+  "keywords": [
+    "slushgenerator",
+    "blaze",
+    "simple",
+    "stylus",
+    "simple-blaze",
+    "babel",
+    "s-grid",
+    "rupture",
+    "kouto-swiss",
+    "jeet",
+    "sass"
+  ]
 }
