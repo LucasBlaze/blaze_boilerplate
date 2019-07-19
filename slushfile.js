@@ -78,11 +78,11 @@ gulp.task('default', function (done) {
         message: 'What is the version of your project?',
         default: '0.1.0'
       }, {
-        name: 'authorName',
+        name: 'appAuthor',
         message: 'What is the author name?',
         default: defaults.authorName
       }, {
-        name: 'authorEmail',
+        name: 'appEmail',
         message: 'What is the author email?',
         default: defaults.authorEmail
       }, {
