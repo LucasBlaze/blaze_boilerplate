@@ -1,4 +1,4 @@
-> Basic slush generator that scaffolds and empty project using Stylus and Template system (Jeet, Rupture, Kouto Swiss, Babel, S-Grid and Gulp 4)
+> Basic slush generator that scaffolds and empty project using Template System, Stylus (Jeet, Rupture, Kouto Swiss, S-Grid) and Javascript (Gulp 4, Babel)
 
 
 ## Getting Started
