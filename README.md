@@ -3,10 +3,10 @@
 
 ## Getting Started
 
-Install `slush-blaze-simple` globally:
+Install `slush` and `slush-blaze-simple` globally:
 
 ```bash
-$ npm install -g slush-blaze-simple
+$ npm install -g slush && slush-blaze-simple
 ```
 
 ### Usage
@@ -38,7 +38,7 @@ If you have any problem or suggestion please open an issue [here](https://github
 
 The MIT License
 
-Copyright (c) 2019, Lucas A. Primo
+Copyright (c) 2019, Lucas Blaze
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
